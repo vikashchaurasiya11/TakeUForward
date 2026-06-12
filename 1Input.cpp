@@ -1,5 +1,6 @@
-class Solution {
-public:
+#include <iostream>
+using namespace std;
+
     void printNumber() {
         int n;
         cin>>n;
@@ -7,4 +8,8 @@ public:
         cout<<n<<endl;
 
     }
-};
+
+
+int main(){
+  printNumber();
+}
