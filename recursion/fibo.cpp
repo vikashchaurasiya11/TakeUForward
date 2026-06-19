@@ -1,0 +1,23 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+
+using namespace std;
+
+class Solution {
+public:
+    int fib(int n) {
+        if(n==0) return 0;
+        if(n==1) return 1;
+        return fib(n-1)+fib(n-2);
+    }
+};
+int main() 
+{
+    
+    Solution obj;
+    int r=obj.fib(6);
+    cout<<r<<endl;
+    return 0;
+}
